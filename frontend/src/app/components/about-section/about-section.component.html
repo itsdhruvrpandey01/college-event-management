@@ -1,0 +1,11 @@
+<div class="about-section">
+  <div class="about-container" *ngIf="committeeData">
+    <h2 class="section-title">Competition Details</h2>
+    <p><strong>Start Date:</strong> {{ committeeData.startDate }}</p>
+    <p><strong>End Date:</strong> {{ committeeData.endDate }}</p>
+    <p><strong>Price Pool:</strong> {{ committeeData.pricePool }}</p>
+    <p><strong>Team Size:</strong> {{ committeeData.teamSize }}</p>
+    <p><strong>Name of Competition:</strong> {{ committeeData.competitionName }}</p>
+    <p><strong>Description:</strong> {{ committeeData.description }}</p>
+  </div>
+</div>

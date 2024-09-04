@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/godofwar');
+
+:root {
+  --primaryFontFmaily: 'GodOfWar', sans-serif;
+
+  --primaryColor: rgb(124, 212, 226);
+  --primaryColor: #002e43;
+}
+
+.godOfWar {
+  font-family: var(--primaryFontFmaily);
+}
+
+.active-accordion {
+  height: fit-content;
+  background-color: red;
+}

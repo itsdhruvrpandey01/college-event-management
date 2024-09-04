@@ -1,0 +1,65 @@
+.timeline-section {
+    padding: 4rem 1rem;
+    background-color: #1a202c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'GodOfWar', serif;
+    margin-bottom: 2rem;
+  }
+  
+  .highlight {
+    color: #7CD4E3;
+  }
+  
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .timeline-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  .day {
+    position: relative;
+    width: 100%;
+  }
+  
+  .day-title {
+    display: block;
+    background-color: #7CD4E3;
+    color: #1a202c;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .event {
+    background-color: #2d3748;
+    padding: 1rem;
+    border: 1px solid #4a5568;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .time {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-title {
+    font-size: 1.1rem;
+  }
+  

@@ -1,0 +1,28 @@
+<form (ngSubmit)="onSubmit()" #committeeForm="ngForm">
+    <div>
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate" name="startDate" [(ngModel)]="committeeData.startDate" required>
+    </div>
+    <div>
+      <label for="endDate">End Date:</label>
+      <input type="date" id="endDate" name="endDate" [(ngModel)]="committeeData.endDate" required>
+    </div>
+    <div>
+      <label for="pricePool">Price Pool:</label>
+      <input type="number" id="pricePool" name="pricePool" [(ngModel)]="committeeData.pricePool" required>
+    </div>
+    <div>
+      <label for="teamSize">Team Size:</label>
+      <input type="number" id="teamSize" name="teamSize" [(ngModel)]="committeeData.teamSize" required>
+    </div>
+    <div>
+      <label for="competitionName">Name of Competition:</label>
+      <input type="text" id="competitionName" name="competitionName" [(ngModel)]="committeeData.competitionName" required>
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" [(ngModel)]="committeeData.description" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  

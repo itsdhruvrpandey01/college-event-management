@@ -1,0 +1,36 @@
+.sponsors-section {
+    padding: 4rem 1rem;
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'GodOfWar', serif;
+  }
+  
+  .highlight {
+    color: #7CD4E3;
+  }
+  
+  .sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .sponsor img {
+    max-width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1); /* To ensure visibility on dark background */
+    transition: transform 0.3s;
+  }
+  
+  .sponsor img:hover {
+    transform: scale(1.1);
+  }
+  

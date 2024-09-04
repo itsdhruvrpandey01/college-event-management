@@ -1,0 +1,19 @@
+<nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <img src="assets/logo.png" alt="HackCelestial Logo" />
+      </div>
+      <button (click)="toggleMenu()" class="menu-toggle">
+        &#9776;
+      </button>
+      <ul [ngClass]="{'navbar-menu': true, 'show': isMenuVisible}" id="desktop-menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#judges">Judges</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="./assets/Hackcelestial.pdf" target="_blank">Brochure</a></li>
+      </ul>
+    </div>
+  </nav>
+  
